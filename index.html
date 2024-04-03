@@ -1,0 +1,339 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Qscript Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!----------------------------------------------------------- Main Page ----------------------------------------------->
+    <div class="container">
+
+        <!---------------------------- Hero Page ---------------------------------------->
+        <div class="hero">
+            <!------------------ Navigation ----------------------->
+            <div class="navigation" id="navbar">
+                <!-------- Logo -------->
+                <nav>
+                    <div class="logo">
+                        <h1 href="#content">QSCRIPT COFFEE <span>|</span></h1>
+                    </div>
+                    <div class="openMenu"><img src="list.svg" alt=""></div>
+                    <ul class="mainMenu">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <div class="closeMenu"><img src="x-lg.svg" alt=""></div>
+                    </ul>
+                </nav>
+            </div>
+            <!------------------ Content -------------------------->
+            <div class="content" id="content">
+                <h2>START YOUR <br>DAY WITH COFFEE</h2>
+                <p>Since 1990, our family has been on a mission to provide sustainable and ethical,<br> hand-roasted,
+                    speciality coffee and Pastries, at a fair price for you and the farmers.</p>
+                <div class="btns">
+                    <a href="" class="readmore">Read More</a>
+                    <a href="#contact" class="ordernow">Order Now</a>
+                </div>
+                <hr style="height:0.5px; border-width:0; color:rgb(219, 219, 219); background-color:rgb(255, 255, 255)">
+                <div class="detail">
+                    <p>50+ <br><span>Type of coffee</span></p>
+                    <p>20+ <br><span>Years of experience</span></p>
+                    <p>5K+ <br><span>Happy clients</span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!---------------------------- About Us Page ---------------------------------------->
+    <div class="about" id="about">
+        <div class="card">
+            <h1>Discover</h1>
+            <h2>Our Story</h2>
+            <p>Qscript coffee is a coffee shop located in varies part of NY. Since 1990, our family has been on a
+                mission to provide
+                best coffee, coffee products, Pastries and Snacks. We get organic rich coffee, hand roasted beans
+                from formers in our community,
+                Enjoy your coffee with our shop. </p>
+            <p>“Committed to building a unified family who consistently serve the highest quality coffee and provide
+                outstanding and personalised service in a vibrant store atmosphere.”
+                <span>– Gloria Jeans Coffee Mission Statement</span>
+            </p>
+        </div>
+        <div class="abtimg">
+            <img src="shop.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!---------------------------- Menu Page ---------------------------------------->
+    <div class="menu" id="menu">
+        <div class="sidebar">
+            <p>OUR COFFEE</p>
+            <h2>Menu</h2>
+        </div>
+        <div class="menubtn">
+            <a onclick="hc()" id="hotcoff">Hot Coffee</a>
+            <a onclick="cc()" id="coldcoff">Cold Coffee</a>
+            <a onclick="pas()" id="pas">Pastries</a>
+        </div>
+        <!--------------- Hot coffee---------------->
+        <div class="hotcf" id="hotcf">
+            <div class="espresso">
+                <img src="Espresso.jpg" alt="Espresso coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Espresso</h4>
+                <p>The Hot Coffee is called Espresso made by Spanish.</p>
+                <h5>$12.90</h5>
+
+
+            </div>
+            <div class="slowbrew">
+                <img src="slowblew.jpg" alt="Slowbrew coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Slow Brew Coffee</h4>
+                <p>Brewing takes place by pouring water over the ground coffee beans.</p>
+                <h5>$9.80</h5>
+
+            </div>
+            <div class="latte">
+                <img src="latte.jpg" alt="Latte coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Latte Coffee</h4>
+                <p>Latte steamed milk and a final, thin layer of frothed milk on top.</p>
+                <h5>$8.20</h5>
+
+            </div>
+            <div class="frappe">
+                <img src="Frappe.jpeg" alt="Frappe coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Frappe Coffee</h4>
+                <p>The frappé was invented in 1957 in Thessaloniki.</p>
+                <h5>$12.90</h5>
+
+            </div>
+        </div>
+        <!--------------- Cold coffee---------------->
+        <div class="coldcf" id="coldcf">
+            <div class="frappuccino">
+                <img src="Frappuccino.jpg" alt="Frappucino coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Frappucino</h4>
+                <p>Frappuccino is a line of blended iced coffee drinks.</p>
+                <h5>$12.20</h5>
+            </div>
+            <div class="mocha">
+                <img src="Mocha.jpg" alt="Mocha coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Mocha Coffee</h4>
+                <p>Chocolate-flavoured warm beverage that is a variant of a caffè.</p>
+                <h5>$12.00</h5>
+
+            </div>
+            <div class="aeropress">
+                <img src="Aeropress.webp" alt="Aeropress coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Aeropress Coffee</h4>
+                <p>Medium-fine ground coffee is immersed in the chamber with a short brew times.</p>
+                <h5>$11.00</h5>
+
+            </div>
+            <div class="icelatte">
+                <img src="latte.jpg" alt="Ice latte coffee pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Ice Latte Coffee</h4>
+                <p>Cool off with a refreshing iced latte handful of ingredients.</p>
+                <h5>$7.50</h5>
+
+            </div>
+        </div>
+        <!--------------- Pastries ---------------->
+        <div class="pastries" id="pastries">
+            <div class="croissants">
+                <img src="croissants.jpg" alt="Croissants pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Croissants</h4>
+                <p> French pastry made from puff pastry in a crescent shape.</p>
+                <h5>$4.30</h5>
+            </div>
+            <div class="pies">
+                <img src="pies.jpg" alt="Pies pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Pies</h4>
+                <p>A pie is a baked dish which is in american food.</p>
+                <h5>$13.00</h5>
+
+            </div>
+            <div class="tiramisu">
+                <img src="tiramisu.jpg" alt="Tiramisu pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Tiramisu</h4>
+                <p>Tiramisu is an Italian dessert made of ladyfinger pastries dipped in coffee.</p>
+                <h5>$9.50</h5>
+
+            </div>
+            <div class="muffins">
+                <img src="muffins.jpg" alt="Muffins pic">
+                <a href=""><img src="plus-lg.svg" alt="plus"></a>
+                <h4>Muffins</h4>
+                <p>The Hot Coffee is called Frappe made by Spanish</p>
+                <h5>$12.90</h5>
+
+            </div>
+        </div>
+
+    </div>
+    <hr style="height:5.5px; border-width:0; color:rgb(219, 219, 219); background-color:rgb(255, 255, 255)">
+    <!---------------------------- Contact Us Page ---------------------------------------->
+    <div class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <h5>Opening Hours</h5>
+        <p>Sunday - Tuesday : 9am to 6pm <br> Thursday - Saturday : 9am to 6pm</p>
+        <div class="contform">
+            <form action="">
+                <input type="text" placeholder="Your Name*"> <br>
+                <input type="email" placeholder="Email ID*"> <br>
+                <input type="tel" placeholder="Mobile Number*" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"> <br>
+                <textarea name="message" placeholder="Write your message*" style="height: 200px;" id=""
+                    cols="50"></textarea>
+                <input type="submit" value="Send Message" name="submit">
+            </form>
+
+            <div class="map" id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323163.351776385!2d-74.30933885453035!3d40.69753995160874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e1!3m2!1sen!2sin!4v1712048943479!5m2!1sen!2sin"
+                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!---------------------------- Footer ---------------------------------------->
+    <div class="footer">
+        <h1>Let’s feel that taste of <br> <span>coffee</span> together</h1>
+        <div class="ftlogo">
+            <div class="left">
+                <h2 href="">QSCRIPT COFFEE <span>|</span></h2>
+                <p>Good friends and great coffee make the perfect blend.</p>
+                <div class="social">
+                    <img src="instagram.svg" alt="Instagram">
+                    <img src="facebook.svg" alt="Facabook">
+                    <img src="twitter-x.svg" alt="X">
+                </div>
+            </div>
+            <div class="right">
+                <p>© Copyrights. All Rights Reserved 2024. Qscript Coffee. <br> Developed by Santhiraja.</p>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+        //------------------- Javascript ---------------//
+
+
+        //--------- Menu button function ----------//
+
+        //-------- cold coffee button ------//
+        function cc() {
+            document.getElementById("hotcf").style.display = "none";
+            document.getElementById("coldcf").style.display = "flex";
+            document.getElementById("coldcoff").style.color = "black";
+            document.getElementById("coldcoff").style.backgroundColor = "rgb(255, 196, 0)";
+            document.getElementById("hotcoff").style.color = "rgb(255, 196, 0)";
+            document.getElementById("hotcoff").style.backgroundColor = "white";
+            document.getElementById("pas").style.color = "rgb(255, 196, 0)";
+            document.getElementById("pas").style.backgroundColor = "white";
+
+
+        }
+        //-------- pastries button --------//
+        function pas() {
+            document.getElementById("hotcf").style.display = "none";
+            document.getElementById("coldcf").style.display = "none";
+            document.getElementById("pastries").style.display = "flex";
+            document.getElementById("pas").style.color = "black";
+            document.getElementById("pas").style.backgroundColor = "rgb(255, 196, 0)";
+            document.getElementById("coldcoff").style.color = "rgb(255, 196, 0)";
+            document.getElementById("coldcoff").style.backgroundColor = "white";
+            document.getElementById("hotcoff").style.color = "rgb(255, 196, 0)";
+            document.getElementById("hotcoff").style.backgroundColor = "white";
+        }
+
+        //-------- hot coffee button --------//
+        function hc() {
+            document.getElementById("coldcf").style.display = "none";
+            document.getElementById("pastries").style.display = "none";
+            document.getElementById("hotcf").style.display = "flex";
+            document.getElementById("coldcoff").style.color = "rgb(255, 196, 0)";
+            document.getElementById("coldcoff").style.backgroundColor = "white";
+            document.getElementById("hotcoff").style.color = "black";
+            document.getElementById("hotcoff").style.backgroundColor = "rgb(255, 196, 0)";
+            document.getElementById("pas").style.color = "rgb(255, 196, 0)";
+            document.getElementById("pas").style.backgroundColor = "white";
+        }
+
+        //-------- Stickey Navigation Bar --------//
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+
+        // ----------- Responsive Hamburg ----------//
+
+        const mainMenu = document.querySelector('.mainMenu');
+        const closeMenu = document.querySelector('.closeMenu');
+        const openMenu = document.querySelector('.openMenu');
+        const menu_items = document.querySelectorAll('nav .mainMenu li a');
+
+
+
+
+        openMenu.addEventListener('click', show);
+        closeMenu.addEventListener('click', close);
+
+        //----- close button menu when you click on a menu item  ------//
+        menu_items.forEach(item => {
+            item.addEventListener('click', function () {
+                close();
+            })
+        })
+
+        function show() {
+            mainMenu.style.display = 'flex';
+            mainMenu.style.top = '0';
+        }
+        function close() {
+            mainMenu.style.top = '-100%';
+        }
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-family: "Jost", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Dancing Script", cursive;
+}
+
+/* ---------------------------------------- Hero Page ----------------------------------- */
+.hero {
+    background-image: url("Coffee\ shop\ background.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navigation {
+    padding: 10px 50px;
+    display: flex;
+    background: transparent;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00000038;
+}
+
+.sticky+.content {
+    padding: 10px;
+    background-color: none;
+}
+
+.navigation h1 {
+    font-family: "Playfair Display", serif;
+    color: rgb(255, 255, 255);
+    margin: 20px 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navigation h1 span {
+    color: rgb(253, 182, 27);
+}
+
+.navigation .nav {
+    margin: 30px 200px;
+}
+
+nav {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+
+nav .mainMenu li a {
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-family: "Jost", sans-serif;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav .mainMenu li a:hover {
+    color: rgb(253, 182, 27);
+}
+
+nav .openMenu {
+    margin: 20px;
+    padding-left: 150px;
+    display: none;
+    cursor: pointer;
+    align-self: start;
+    float: left;
+}
+
+nav .openMenu img {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+}
+
+nav .closeMenu img {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    display: none;
+}
+
+nav .mainMenu .closeMenu,
+nav .logo {
+    margin: 6px;
+    cursor: pointer;
+}
+
+.content {}
+
+.content h2 {
+    font-size: 75px;
+    font-family: serif;
+    color: white;
+    margin: 200px 0px 30px 110px;
+    font-weight: normal;
+    text-align: center left;
+}
+
+.content p {
+    font-family: "Jost", sans-serif;
+    margin: 0px 0px 0px 110px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+.btns {
+    display: flex;
+    margin-left: 900px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+.content .readmore {
+    font-family: "Jost", sans-serif;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.content .readmore:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(128, 255, 0, 0);
+}
+
+.content .ordernow {
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    background-color: rgb(253, 182, 27);
+}
+
+.content .ordernow:hover {
+    background-color: rgb(214, 148, 6);
+    color: white;
+}
+
+.content hr {
+    margin: 0px 110px 0px 110px;
+}
+
+.content .detail {
+    margin: 20px 0px 0px 0px;
+    display: flex;
+}
+
+.content .detail p {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    line-height: 50px;
+}
+
+.content .detail p span {
+    font-size: 17px;
+    font-family: "Jost", sans-serif;
+}
+
+/* ---------------------------------------- About Us Page ----------------------------------- */
+.about {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: white;
+}
+
+.about .abtimg img {
+    width: 700px;
+    height: 65vh;
+}
+
+.about .card {
+    margin: 50px 30px 50px 30px;
+}
+
+.about .card h1 {
+    color: rgb(255, 196, 0);
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+}
+
+.about .card h2 {
+    color: white;
+    font-size: 75px;
+    font-family: "Playfair Display", serif;
+    line-height: 50px;
+}
+
+.about .card p {
+    padding-top: 50px;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.about .card p span {
+    color: rgb(255, 196, 0);
+}
+
+/* ---------------------------------------- Menu Page ----------------------------------- */
+.menu {
+    margin: 50px 70px;
+}
+
+.menu .sidebar {
+    margin-left: 550px;
+}
+
+.menu .sidebar p {
+    font-size: 20px;
+    color: rgb(255, 196, 0);
+    font-family: "Jost", sans-serif;
+    padding: 20px 0px;
+}
+
+.menu .sidebar h2 {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.menu .menubtn {
+    align-content: center;
+    margin: 50px 0px 50px 280px;
+    cursor: pointer;
+}
+
+.menu .menubtn #hotcoff {
+    color: black;
+    background-color: rgb(255, 196, 0);
+}
+
+.menu .menubtn a {
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    margin: 0px 20px;
+    padding: 20px 50px;
+    align-items: center;
+    color: rgb(255, 196, 0);
+    border-bottom: 1px solid rgb(255, 196, 0);
+}
+
+.menu .menubtn a:hover {
+    color: black;
+    background-color: rgb(255, 196, 0);
+}
+
+/*--------------------- HOT COFFEE -----------------*/
+.menu .hotcf {
+    margin: 100px 0px;
+    display: flex;
+    width: 350px;
+    font-family: "Jost", sans-serif;
+    text-align: left;
+}
+
+.menu .hotcf img {
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.menu .hotcf h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.menu .hotcf p {
+    font-size: 15px;
+}
+
+.menu .hotcf h5 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(197, 153, 8);
+    font-weight: 400;
+}
+
+.menu .hotcf .espresso {
+    margin: 0px 25px;
+}
+
+.menu .hotcf .slowbrew {
+    margin: 0px 25px;
+}
+
+.menu .hotcf .latte {
+    margin: 0px 25px;
+}
+
+.menu .hotcf .frappe {
+    margin: 0px 25px;
+}
+
+.menu .hotcf a img {
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    margin-top: -30px;
+    margin-left: 180px;
+    background-color: rgb(197, 153, 8);
+    color: white;
+    border-radius: 50px;
+}
+
+.menu .hotcf a img:hover {
+    background-color: rgb(255, 196, 2);
+}
+
+/*--------------------- COLD COFFEE -----------------*/
+.menu .coldcf {
+    margin: 100px 0px;
+    display: flex;
+    width: 350px;
+    font-family: "Jost", sans-serif;
+    text-align: left;
+    display: none;
+}
+
+.menu .coldcf img {
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.menu .coldcf h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.menu .coldcf p {
+    font-size: 15px;
+}
+
+.menu .coldcf h5 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(197, 153, 8);
+    font-weight: 400;
+}
+
+.menu .coldcf .frappuccino {
+    margin: 0px 25px;
+}
+
+.menu .coldcf .mocha {
+    margin: 0px 25px;
+}
+
+.menu .coldcf .aeropress {
+    margin: 0px 25px;
+}
+
+.menu .coldcf .icelatte {
+    margin: 0px 25px;
+}
+
+.menu .coldcf a img {
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    margin-top: -30px;
+    margin-left: 180px;
+    background-color: rgb(197, 153, 8);
+    color: white;
+    border-radius: 50px;
+}
+
+.menu .coldcf a img:hover {
+    background-color: rgb(255, 196, 2);
+}
+
+/*--------------------- Pastries -----------------*/
+.menu .pastries {
+    margin: 100px 0px;
+    display: flex;
+    width: 350px;
+    font-family: "Jost", sans-serif;
+    text-align: left;
+    display: none;
+}
+
+.menu .pastries img {
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.menu .pastries h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.menu .pastries p {
+    font-size: 15px;
+}
+
+.menu .pastries h5 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(197, 153, 8);
+    font-weight: 400;
+}
+
+.menu .pastries .croissants {
+    margin: 0px 25px;
+}
+
+.menu .pastries .pies {
+    margin: 0px 25px;
+}
+
+.menu .pastries .tiramisu {
+    margin: 0px 25px;
+}
+
+.menu .pastries .muffins {
+    margin: 0px 25px;
+}
+
+.menu .pastries a img {
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    margin-top: -30px;
+    margin-left: 180px;
+    background-color: rgb(197, 153, 8);
+    color: white;
+    border-radius: 50px;
+}
+
+.menu .pastries a img:hover {
+    background-color: rgb(255, 196, 2);
+}
+
+/* ---------------------------------------- Contact Page ----------------------------------- */
+.contact {
+    background-color: rgb(255, 255, 255);
+}
+
+.contact h1 {
+    margin: 10px 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 20px 50px;
+    display: block;
+}
+
+.contact h5 {
+    margin-top: 50px;
+    padding: 10px 110px;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+}
+
+.contact p {
+    padding: 10px 110px;
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+}
+
+.contact form {
+    margin: 50px 100px;
+}
+
+input[type=text],
+[type=email],
+[type=tel],
+textarea {
+    width: 400px;
+    padding: 12px;
+    margin: 10px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+}
+
+input[type=submit] {
+    width: 150px;
+    padding: 12px;
+    margin: 10px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.contform {
+    display: flex;
+}
+
+.contact .map {
+    margin: 50px 200px 50px 50px;
+}
+
+/* ---------------------------------------- Footer ----------------------------------- */
+.footer {
+    margin: 0px;
+    background-color: #000000;
+}
+
+.footer h1 {
+    color: white;
+    margin: 0px;
+    padding: 100px 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.footer h1 span {
+    color: rgb(255, 196, 0);
+}
+
+.footer h2 {
+    font-size: 50px;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.footer h2 span {
+    color: rgb(255, 196, 0);
+}
+
+.footer p {
+    font-family: "Playfair Display", serif;
+    color: rgb(255, 255, 255);
+    padding: 0px 50px 10px 50px;
+    font-size: 15px;
+}
+
+.footer .ftlogo {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.footer .social {
+    margin: 20px 40px 0px 40px;
+}
+
+.footer .social img {
+    margin: 0px 10px;
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.footer .social img:hover {
+    background-color: rgb(255, 196, 0);
+}
+
+.footer .ftlogo .right p {
+    padding: 80px 10px 10px 450px;
+    color: white;
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: right;
+}
+
+/* --------------
+------------------
+---------------------------
+ */
+/* -------------------------------------------------     Responsive       ----------------------------------------- */
+@media screen and (max-width: 900px) {
+
+    /*------------ max-width: 900px  ---------*/
+    .hero {
+        height: 760px;
+    }
+    .mainMenu{
+        width: 900px;
+    }
+
+    .navigation {
+        padding: 10px 10px;
+        height: 60px;
+    }
+
+    .navigation h1 {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+
+    .navigation .nav {
+        margin: 30px 0px;
+    }
+
+    .content {
+        padding-top: 50px;
+    }
+
+    .content h2 {
+        font-size: 50px;
+        font-family: serif;
+        color: white;
+        margin: 80px 0px 20px 80px;
+    }
+
+    .content p {
+        margin: 0px 0px 0px 80px;
+        font-size: 13px;
+    }
+
+    .btns {
+        margin-left: 600px;
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+
+    .content .readmore {
+        margin-right: 20px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .content .ordernow {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .content hr {
+        margin: 0px 80px 0px 80px;
+    }
+
+    .content .detail {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .content .detail p {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .content .detail p span {
+        font-size: 15px;
+    }
+
+    /* ------- About ---- */
+
+    .about .abtimg img {
+        width: 400px;
+        height: 40vh;
+    }
+
+    .about .card {
+        margin: 50px 30px 50px 30px;
+    }
+
+    .about .card h1 {
+        font-size: 18px;
+    }
+
+    .about .card h2 {
+        font-size: 55px;
+        line-height: 35px;
+    }
+
+    .about .card p {
+        padding-top: 30px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    /* ------- Menu ---- */
+    .menu {
+        margin: 30px 50px;
+    }
+
+    .menu .sidebar {
+        margin-left: 350px;
+    }
+
+    .menu .sidebar p {
+        font-size: 18px;
+    }
+
+    .menu .sidebar h2 {
+        font-size: 45px;
+    }
+
+    .menu .menubtn {
+        margin: 50px 0px 50px 100px;
+    }
+
+    /*--------------------- HOT COFFEE responsive max-width:900px -----------------*/
+    .menu .hotcf {
+        margin: 80px 0px;
+        width: 160px;
+    }
+
+    .menu .hotcf img {
+        width: 160px;
+        height: 230px;
+    }
+
+    .menu .hotcf h4 {
+        font-size: 17px;
+        padding-bottom: 8px;
+    }
+
+    .menu .hotcf p {
+        font-size: 10px;
+        width: 160px;
+    }
+
+    .menu .hotcf h5 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .menu .hotcf .espresso {
+        margin: 0px 20px;
+    }
+
+    .menu .hotcf .slowbrew {
+        margin: 0px 20px;
+    }
+
+    .menu .hotcf .latte {
+        margin: 0px 20px;
+    }
+
+    .menu .hotcf .frappe {
+        margin: 0px 20px;
+    }
+
+    .menu .hotcf a img {
+        width: 15px;
+        height: 15px;
+        padding: 10px;
+        margin-top: -20px;
+        margin-left: 120px;
+    }
+
+    .menu .hotcf a img:hover {
+        background-color: rgb(255, 196, 2);
+    }
+
+    /*--------------------- COLD COFFEE 900 px-----------------*/
+    .menu .coldcf {
+        margin: 80px 0px;
+        width: 160px;
+    }
+
+    .menu .coldcf img {
+        width: 160px;
+        height: 230px;
+    }
+
+    .menu .coldcf h4 {
+        font-size: 17px;
+        padding-bottom: 8px;
+    }
+
+    .menu .coldcf p {
+        font-size: 10px;
+    }
+
+    .menu .coldcf h5 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .menu .coldcf .frappuccino {
+        margin: 0px 20px;
+    }
+
+    .menu .coldcf .mocha {
+        margin: 0px 20px;
+    }
+
+    .menu .coldcf .aeropress {
+        margin: 0px 20px;
+    }
+
+    .menu .coldcf .icelatte {
+        margin: 0px 20px;
+    }
+
+    .menu .coldcf a img {
+        width: 15px;
+        height: 15px;
+        padding: 10px;
+        margin-top: -20px;
+        margin-left: 120px;
+    }
+
+    /*------   Pastries responsive max- 900px ------*/
+    .menu .pastries {
+        margin: 80px 0px;
+        width: 160px;
+    }
+
+    .menu .pastries img {
+        width: 160px;
+        height: 230px;
+    }
+
+    .menu .pastries h4 {
+        font-size: 17px;
+        padding-bottom: 8px;
+    }
+
+    .menu .pastries p {
+        font-size: 10px;
+    }
+
+    .menu .pastries h5 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .menu .pastries .croissants {
+        margin: 0px 20px;
+    }
+
+    .menu .pastries .pies {
+        margin: 0px 20px;
+    }
+
+    .menu .pastries .tiramisu {
+        margin: 0px 20px;
+    }
+
+    .menu .pastries .muffins {
+        margin: 0px 20px;
+    }
+
+    .menu .pastries a img {
+        width: 15px;
+        height: 15px;
+        padding: 10px;
+        margin-top: -20px;
+        margin-left: 120px;
+    }
+
+    /* ----- Contact Page res 600px ------ */
+
+    .contact h1 {
+        margin: 10px 0px;
+        font-size: 40px;
+    }
+
+    .contact h5 {
+        padding: 10px 50px;
+    }
+
+    .contact p {
+        padding: 0px 50px;
+    }
+
+    .contact form {
+        width: 300px;
+        margin: 0px;
+        padding-left: 40px;
+    }
+
+    input[type=text],
+    [type=email],
+    [type=tel],
+    textarea {
+        width: 300px;
+    }
+
+    input[type=submit] {
+        width: 120px;
+        padding: 10px;
+    }
+
+    .contact .map {
+        margin: 10px 200px 50px 20px;
+    }
+
+    .contact .map .iframe {
+        height: 200;
+        width: 300;
+    }
+
+    /* -------- Footer responsive 900px --------------- */
+    .footer h1 {
+        padding: 50px 0px;
+        font-size: 50px;
+    }
+
+    .footer h2 {
+        font-size: 40px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .footer p {
+        padding: 0px 50px 10px 50px;
+        font-size: 13px;
+    }
+
+    .footer .ftlogo {
+        padding-bottom: 10px;
+    }
+
+    .footer .social {
+        margin: 10px 20px 0px 40px;
+    }
+
+    .footer .social img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer .ftlogo .right p {
+        padding: 40px 10px 10px 70px;
+        color: white;
+        font-size: 15px;
+    }
+}
+
+/*--------------------------------------------- Responsive max-width: 600px  ----------------------------------------*/
+
+@media (max-width: 600px) {
+    .navigation {
+        width: 600px;
+    }
+
+    nav .mainMenu {
+        height: 50vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.582);
+        transition: top 1s ease 0s;
+        display: none;
+    }
+
+    nav .closeMenu img {
+        display: block;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    nav .openMenu img {
+        display: block;
+        float: left;
+    }
+
+    nav .closeMenu img:hover {
+        background-color: rgb(253, 182, 27);
+    }
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(253, 182, 27);
+    }
+
+    img {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    nav .mainMenu li {
+        padding: 15px;
+        align-items: end;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .content {
+        padding-top: 10px;
+        display: block;
+    }
+
+    .content h2 {
+        font-size: 50px;
+        font-family: serif;
+        color: white;
+        margin: 150px 0px 20px 80px;
+    }
+
+    .content p {
+        margin: 0px 0px 0px 80px;
+        font-size: 13px;
+    }
+
+    .btns {
+        margin-left: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .content .readmore {
+        margin-right: 20px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .content .ordernow {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .content hr {
+        margin: 0px 80px 0px 80px;
+    }
+
+    .content .detail {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .content .detail p {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .content .detail p span {
+        font-size: 15px;
+    }
+
+    /* ------- About ---- */
+    .about {
+        display: block;
+    }
+
+    .about .abtimg img {
+        height: 40vh;
+        align-items: center;
+        padding-left: 100px;
+    }
+
+    .about .card {
+        margin: 0px;
+        padding: 50px 30px;
+    }
+
+    .about .card h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .about .card h2 {
+        text-align: center;
+    }
+
+    .about .card p {
+        text-align: center;
+    }
+
+    /* ------- Menu ---- */
+    .menu {
+        margin: 0px;
+        padding: 30px 50px;
+    }
+
+    .menu .sidebar {
+        margin-left: 220px;
+    }
+
+    .menu .menubtn {
+        width: 600px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .menu .menubtn a {
+        padding: 10px 30px;
+    }
+
+    /*----------- HOT COFFEE 600px ----------*/
+    .menu .hotcf {
+        display: contents;
+        width: 600px;
+    }
+
+    .menu .coldcf {
+        display: contents;
+        width: 600px;
+    }
+
+    .menu .pastries {
+        display: contents;
+        width: 600px;
+    }
+
+    /* ----- Contact Page res 600px ------ */
+    .contact .contform {
+        display: block;
+    }
+
+    .contact form {
+        width: 300px;
+        margin: 0px;
+        padding-left: 40px;
+    }
+
+    .contact .map {
+        margin: 10px 0px 50px 0px;
+    }
+
+    /* -------- Footer responsive 600px --------------- */
+    .footer {
+        width: 600px;
+    }
+
+    .footer h1 {
+        font-size: 30px;
+    }
+
+    .footer .ftlogo .right p {
+        padding: 40px 10px 10px 0px;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+
+/*--------------------------------------------- Mobile site max-width: 375px  ----------------------------------------*/
+
+@media (max-width: 375px) {
+    .navigation {
+        width: 375px;
+    }
+    .content h2 {
+        margin: 80px 0px 20px 40px;
+        font-size: 40px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 13px;
+        margin: 0px 40px;
+        width: 300px;
+        text-align: center;
+    }
+    .mainMenu{
+        width: 375px;
+    }
+    nav .openMenu{
+        padding-left: 40px;
+    }
+    .btns {
+        margin-left: 50px;
+    }
+    .content hr {
+        margin: 0px 80px;
+    }
+    .content .detail{
+        display: block;
+    }
+    .content .detail p {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .content .detail p span {
+        font-size: 15px;
+    }
+
+    /* ------- About ---- */
+    .about {
+        display: block;
+    }
+
+    .about .abtimg img {
+        height: 40vh;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .about .card {
+        margin: 0px;
+        padding: 50px 30px;
+    }
+
+    .about .card h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* ------- Menu ---- */
+    .menu {
+        margin: 0px;
+        padding: 30px 50px;
+    }
+
+    .menu .sidebar {
+        margin-left: 80px;
+    }
+
+    .menu .menubtn {
+        margin: 20px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu .menubtn a {
+        margin-left: 30px;
+        padding: 20px 50px;
+        width: 80px;
+        font-size: 15px;
+    }
+
+    /*----------- HOT COFFEE 375px ----------*/
+    .menu .hotcf {
+        display: contents;
+        width: 375px;
+    }
+    .menu .hotcf .espresso {
+        margin-left: 40px;
+    }
+
+    .menu .hotcf .slowbrew {
+        margin-left: 40px;
+    }
+
+    .menu .hotcf .latte {
+        margin-left: 40px;
+    }
+
+    .menu .hotcf .frappe {
+        margin-left: 40px;
+    }
+
+    .menu .coldcf {
+        display: contents;
+        width: 375px;
+    }
+    .menu .coldcf .frappuccino {
+        margin-left: 40px;
+    }
+    
+    .menu .coldcf .mocha {
+        margin-left: 40px;
+    }
+    
+    .menu .coldcf .aeropress {
+        margin-left: 40px;
+    }
+    
+    .menu .coldcf .icelatte {
+        margin-left: 40px;
+    }
+
+    .menu .pastries {
+        display: contents;
+        width: 375px;
+    }
+    .menu .pastries .croissants {
+        margin-left: 40px;
+    }
+
+    .menu .pastries .pies {
+        margin-left: 40px;
+    }
+
+    .menu .pastries .tiramisu {
+        margin-left: 40px;
+    }
+
+    .menu .pastries .muffins {
+        margin-left: 40px;
+    }
+
+
+    /* ----- Contact Page res 375px ------ */
+    .contact .contform {
+        width: 375px;
+    }
+
+    .contact form {
+        width: 300px;
+        margin: 10px 0px;
+        padding-left: 30px;
+    }
+
+    .contact .map {
+        margin: 10px 0px 50px 0px;
+        width: 300px;
+        height: 400px;
+    }
+
+    /* -------- Footer responsive 375px --------------- */
+    .footer {
+        width: 375px;
+    }
+
+    .footer h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .footer .ftlogo .left h2{
+        text-align: center;
+    }
+    .footer .ftlogo{
+        display: block;
+        text-align: center;
+    }
+
+    .footer .ftlogo .right p {
+        text-align: center;
+    }
+}
